@@ -7,7 +7,7 @@ int main()
     pin_mode("gpio24", "out"); //Declare gpio 24 as output.
 	
 	//Turn on and off gpio 24 every 1 second.
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 5; i++) {
         digital_write("gpio24", "1"); //On
         sleep(1);
 
