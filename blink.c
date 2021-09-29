@@ -2,7 +2,7 @@
 
 int main()
 {
-    signal(SIGIN, handle_interrupt); //interrupt handler for Ctrl-C.
+    signal(SIGINT, handle_interrupt); //interrupt handler for Ctrl-C.
     
     export_pin("24"); //Open gpio 24.
  
