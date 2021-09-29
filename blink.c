@@ -6,7 +6,7 @@ int main()
     
     export_pin("24"); //Open gpio 24.
  
-    pin_mode("24", "out"); //Declare gpio 24 as output.
+    set_pin_mode("24", "out"); //Declare gpio 24 as output.
 	
 	//Turn on and off gpio 24 every 1 second.
     for (int i = 0; i < 5; i++) {
